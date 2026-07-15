@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#000;
+    border-bottom:3px solid #00c853;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    width:90px;
+}
+
+nav a{
+    color:silver;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#00c853;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75));
+}
+
+.hero h1{
+    font-size:48px;
+    color:#00c853;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#d9d9d9;
+    max-width:800px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:15px 35px;
+    background:#00c853;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:silver;
+    color:black;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    color:#00c853;
+    margin-bottom:25px;
+    font-size:36px;
+}
+
+ul li{
+    margin:12px 0;
+}
+
+footer{
+    text-align:center;
+    background:#000;
+    padding:25px;
+    color:silver;
+    border-top:3px solid #00c853;
+}
